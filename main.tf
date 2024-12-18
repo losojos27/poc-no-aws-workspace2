@@ -27,7 +27,7 @@ module "pet" {
 output "combined_pet_name" {
   sensitive   = true
   description = "Here is the name of your new pet!"
-  value       = [format("%s-%s", data.tfe_outputs.pet-name-workspace1.values.pet_name, module.pet.name)]
+  value       = [format("%s+%s", data.tfe_outputs.pet-name-workspace1.values.pet_name, module.pet.name)]
 
 }
 
