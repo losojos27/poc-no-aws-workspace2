@@ -14,7 +14,7 @@ variable "pet_name_length" {
 
 data "tfe_outputs" "pet-name-workspace1" {
   organization = "lo-petgrackle"
-  workspace    = "pet-name-workspace1"
+  workspace    = "poc-no-aws-workspace1"
 }
 
 
