@@ -13,7 +13,7 @@ variable "pet_name_length" {
 }
 
 data "tfe_outputs" "pet-name-workspace1" {
-  organization = "puget-sound-energy"
+  organization = "lo-petgrackle"
   workspace    = "pet-name-workspace1"
 }
 
